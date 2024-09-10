@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class AboutMe : MonoBehaviour
+public class ScrollMessages : MonoBehaviour
 {
     public string[] messages;
     public TextMeshProUGUI textbox;
@@ -24,13 +24,13 @@ public class AboutMe : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             messageCounter += 1;
             if (messageCounter >= messages.Length) messageCounter = 0;
             textbox.text = messages[messageCounter];
             Debug.Log(messageCounter);
-        } else if (Input.GetKeyDown(KeyCode.D))
+        } else if (Input.GetKeyDown(KeyCode.Q))
         {
             messageCounter -= 1;
             if (messageCounter < 0) messageCounter = messages.Length - 1;
