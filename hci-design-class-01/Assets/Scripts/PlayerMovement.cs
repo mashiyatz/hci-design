@@ -6,12 +6,6 @@ public class PlayerMovement : MonoBehaviour
 {
     public float rotationSpeed;
     public float movementSpeed;
-    private Rigidbody rb;
-
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody>();   
-    }
 
     void Update()
     {
