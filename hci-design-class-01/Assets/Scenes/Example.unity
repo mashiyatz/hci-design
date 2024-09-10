@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -191,12 +191,12 @@ GameObject:
   - component: {fileID: 406508775}
   - component: {fileID: 406508774}
   m_Layer: 5
-  m_Name: Panel3
+  m_Name: What This Class Is
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &406508773
 RectTransform:
   m_ObjectHideFlags: 0
@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 713843445}
   - component: {fileID: 713843444}
   m_Layer: 5
-  m_Name: Panel1
+  m_Name: Hello!
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,12 +1101,12 @@ GameObject:
   - component: {fileID: 821416421}
   - component: {fileID: 821416420}
   m_Layer: 5
-  m_Name: Panel6
+  m_Name: Overview Of Projects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &821416419
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1254,12 +1254,12 @@ GameObject:
   - component: {fileID: 944867955}
   - component: {fileID: 944867954}
   m_Layer: 5
-  m_Name: Panel5
+  m_Name: Expectations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &944867953
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1839,7 +1839,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: this is a slide
+  m_text: i'm mashi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6bba9c16db4f6a84bb39d4da2cce0f35, type: 2}
   m_sharedMaterial: {fileID: -2729623435667123087, guid: 6bba9c16db4f6a84bb39d4da2cce0f35, type: 2}
@@ -1928,12 +1928,12 @@ GameObject:
   - component: {fileID: 1236547252}
   - component: {fileID: 1236547251}
   m_Layer: 5
-  m_Name: Panel4
+  m_Name: What This Class Is NOT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1236547250
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2272,8 +2272,9 @@ GameObject:
   - component: {fileID: 1534765146}
   - component: {fileID: 1534765148}
   - component: {fileID: 1534765147}
+  - component: {fileID: 1534765149}
   m_Layer: 5
-  m_Name: Panel2
+  m_Name: About Me
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2338,6 +2339,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534765145}
   m_CullTransparentMesh: 1
+--- !u!114 &1534765149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534765145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5303f9041154110ae9d71d3eaa9371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - i'm mashi
+  - i'm from queens
+  - i studied physics and japanese
+  - i worked in tokyo as an ML engineer...
+  - then as a consultant, a translator, a teacher...
+  - became an ar developer for a startup
+  - then went to school again and made some fun things
+  textbox: {fileID: 1218205843}
 --- !u!1 &1681929123
 GameObject:
   m_ObjectHideFlags: 0
