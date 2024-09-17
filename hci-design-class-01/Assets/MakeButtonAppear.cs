@@ -9,6 +9,7 @@ public class MakeButtonAppear : MonoBehaviour
     private void Start()
     {
         Debug.Log("hello class :)");
+        Debug.Log("read my announcements");
     }
 
     public void TurnButtonOnAndOff()
